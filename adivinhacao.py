@@ -9,7 +9,7 @@ def jogar():
     total_tentativas=3
     pontos = 1000
 
-    print("Qual o nível de dificuldade?", numero_secreto)
+    print("Qual o nível de dificuldade?")
     print('(1) Fácil (2) Médio (3) Difícil')
     nivel = int(input("Defina o nível: "))
 
@@ -36,6 +36,7 @@ def jogar():
 
         if(acertou):
             print('Você acertou!')
+            input()
             break
         else:
             if(maior):
@@ -47,6 +48,7 @@ def jogar():
         print('_______________________________________________________')
     print(numero_secreto)
     print("Você fez ", pontos,"pontos")
+    input()
 
 if(__name__ =="__main__"):
     jogar()
