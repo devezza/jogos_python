@@ -4,7 +4,7 @@ Projeto simples com dois jogos para fixar o aprendizado dos comandos básicos da
 ## Advinhação
 Um número é gerado aleatóriamente dentro de um intrevalo e o jogador deve advinhar.\
 O jogador pode escolher o nível que implica na quantidade de tentativas que o mesmo vai ter.\
-O jogo finaliza quando o número é advinhado ou quando o número de tentativas é atingido. \
+O jogo finaliza quando o número é advinhado ou quando o número de tentativas é atingido. 
 
 ## Forca
 Uma palavra é escolhida aleatóriamente de um arquivo txt e o jogador deve inserir letras até adivinhar a mesma.
